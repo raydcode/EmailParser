@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Parser</title>
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Email Parser</h1>
+    <div class="container">
+      <div class="form-group purple-border">
+        <label for="exampleFormControlTextarea4">Paste your String</label>
+        <textarea
+          class="form-control"
+          id="stringTextarea"
+          rows="3"
+        ></textarea>
+      </div>
+      <p id="warning"></p>
+      <button class="btn btn-primary mx-auto" id="btn">Get Emails</button>
+      <div class="form-group green-border-focus">
+        <label for="exampleFormControlTextarea5" id="emailText">Emails you have 0</label>
+        <textarea
+          class="form-control"
+          id="emailTextarea"
+          rows="3"
+        ></textarea>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
